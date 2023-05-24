@@ -6,7 +6,7 @@
 [![developer](https://img.shields.io/badge/developer-matrix-blueviolet)](https://matrix.to/#/#community-dev:matrix.lnflash.com)
 [![website](https://img.shields.io/website?down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Flnflash.com)](https://lnflash.com)
 
-[![nostr](https://img.shields.io/nostr/follow/000000001?domain=https%3A%2F%2Fnostr.lnflash.com&label=Follow&style=social)](http://nostr.lnflash.com)
+<!-- [![nostr](https://img.shields.io/nostr/follow/000000001?domain=https%3A%2F%2Fnostr.lnflash.com&label=Follow&style=social)](http://nostr.lnflash.com) -->
 [![twitter](https://img.shields.io/twitter/follow/lnflash?label=Follow)](https://twitter.com/lnflash)
 
 
