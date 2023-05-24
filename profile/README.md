@@ -1,4 +1,4 @@
-## Welcome to Flash
+# Welcome to Flash
 
 We are on a mission to bring Global Cash to the Caribbean.
 
