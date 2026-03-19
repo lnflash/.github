@@ -1,0 +1,98 @@
+name: "💰 Bounty Proposal"
+description: "Propose a new bounty for the Flash ecosystem"
+title: "[Bounty Proposal]: "
+labels: ["💰 bounty", "triage"]
+body:
+  - type: dropdown
+    id: target-repo
+    attributes:
+      label: "Target Repository"
+      description: "Which Flash repo does this bounty apply to?"
+      options:
+        - "flash (core backend)"
+        - "flash-mobile (iOS/Android app)"
+        - "flash-pos (Point of Sale)"
+        - "flash-pay (Payment page)"
+        - "flash-site (Website)"
+        - "flash-api-docs"
+        - "cashu-javacard"
+        - "cashu-client"
+        - "frappe-flash-admin"
+        - "Other (specify in summary)"
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: "Summary"
+      description: "One-line description of what needs to be built or fixed"
+      placeholder: "e.g. Add offline payment fallback for POS"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Full description of the work. Include context, links to related issues."
+      placeholder: "Describe the problem and what a solution looks like..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "Acceptance Criteria"
+      description: "What does 'done' look like? Be specific."
+      placeholder: "- [ ] Feature works on iOS and Android
+- [ ] Tests pass
+- [ ] PR includes demo"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: suggested-level
+    attributes:
+      label: "Suggested Bounty Level"
+      description: "Estimate of complexity. Team confirms final level."
+      options:
+        - "⚡ Spark — 5k-25k sats (small fixes, docs, UI tweaks)"
+        - "🔥 Flame — 25k-75k sats (medium features, integrations)"
+        - "🌋 Eruption — 75k-150k sats (significant features, refactors)"
+        - "🏔️ Summit — 150k-250k+ sats (major features, architecture)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: "Category"
+      description: "Type of work"
+      multiple: true
+      options:
+        - "📱 Mobile"
+        - "🖥️ Backend"
+        - "🌐 Web"
+        - "📖 Docs"
+        - "🧪 Testing"
+        - "🔧 DevOps"
+        - "🎨 Design"
+        - "🔒 Security"
+        - "🏝️ Community"
+        - "⚡ Lightning"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### What happens next?
+
+        1. **Vandana** reviews for technical feasibility
+        2. **Nick** (mobile/POS) or **Ben** (backend) signs off
+        3. **Dread** gives final approval and sets bounty amount
+        4. Issue gets labeled and opened for claims
+
+        Questions? Join **#public-development** on the Flash Discord.
