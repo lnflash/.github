@@ -50,6 +50,7 @@ Welcome! This repository uses structured GitHub issue templates to improve clari
 ---
 
 Let’s keep our workflows clean, collaborative, and ship-ready 🚀
-— The Flash Team
+
+The Flash Team
 
 ---

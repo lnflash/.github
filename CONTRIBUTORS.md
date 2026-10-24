@@ -8,7 +8,7 @@ Welcome to the Flash Bounty Hall of Fame. Every contributor here has been paid i
 
 | Contributor | GitHub | Tier | Merged PRs | Total Earned (sats) | Joined |
 |-------------|--------|------|-----------|---------------------|--------|
-| *(be the first!)* | — | — | — | — | — |
+| *(be the first!)* | | | | | |
 
 ---
 
@@ -23,4 +23,4 @@ Welcome to the Flash Bounty Hall of Fame. Every contributor here has been paid i
 
 ---
 
-*Want to get on this list? Start with a [Spark bounty](https://github.com/lnflash/flash/labels/%E2%9A%A1%20spark) — they’re built for first-timers.*
+*Want to get on this list? Start with a [Spark bounty](https://github.com/lnflash/flash/labels/%E2%9A%A1%20spark). They’re built for first-timers.*
