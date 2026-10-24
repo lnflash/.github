@@ -1,6 +1,6 @@
 ---
 name: "⚡ Bounty"
-about: "Open a bounty for external contributors — paid in sats via Lightning"
+about: "Open a bounty for external contributors, paid in sats via Lightning"
 title: "[BOUNTY] "
 labels: ["bounty:open"]
 ---
@@ -23,7 +23,7 @@ labels: ["bounty:open"]
 - **Tier:** <!-- starter / standard / prime / legend -->
 - **Difficulty:** <!-- beginner / intermediate / advanced -->
 - **Skills needed:** <!-- e.g., TypeScript, React Native, Lightning -->
-- **Deadline:** <!-- optional — leave blank if open-ended -->
+- **Deadline:** <!-- optional: leave blank if open-ended -->
 
 ## How to Claim
 1. Comment on this issue to signal intent
